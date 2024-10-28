@@ -1,0 +1,23 @@
+﻿{
+  "profiles": {
+    "Development": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "applicationUrl": "https://localhost:7000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+
+        "Serilog__Using__0": "Serilog.Sinks.Console",
+        "Serilog__Using__1": "Serilog.Sinks.File",
+        "Serilog__MinimumLevel": "Debug",
+        "Serilog__WriteTo__0__Name": "Console",
+        "Serilog__WriteTo__0__Args__theme": "Serilog.Sinks.SystemConsole.Themes.AnsiConsoleTheme::Code, Serilog.Sinks.Console",
+        "Serilog__WriteTo__1__Name": "File",
+        "Serilog__WriteTo__1__Args__path": "Logs/log-.txt",
+        "Serilog__WriteTo__1__Args__rollingInterval": "Hour",
+        "Serilog__Properties__ApplicationName": "Products.DesignTime"
+      }
+    }
+  }
+}
